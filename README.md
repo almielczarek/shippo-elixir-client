@@ -15,10 +15,7 @@ My goal in creating this library is to build an ergonomic and extensible way to 
 This library is intended to be developed as an OTP application built on top of
 HTTPoison.
 
-It will contain the main providers such as: FedEx, UPS, and USPS.
-
-One of the early goals is to make it possible for providers to be plugged in if they are not covered in this repo.
-This is how the core providers will be implemented themselves.
+It will contain structs for all of the api objects and will eventually cover all of the api methods.
 
 ## Installation
 
