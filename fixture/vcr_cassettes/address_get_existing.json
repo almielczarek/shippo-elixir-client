@@ -1,0 +1,83 @@
+[
+  {
+    "request": {
+      "body": "{\"zip\":\"94117\",\"street1\":\"215 Clayton St.\",\"state\":\"CA\",\"name\":\"Mrs. Hippo\",\"country\":\"US\",\"city\":\"San Francisco\"}",
+      "headers": {
+        "authorization": "ShippoToken shippo_test_8f2db303ed0799528593779ddd291b4b5cccbaf7",
+        "content-type": "application/json"
+      },
+      "method": "post",
+      "options": {
+        "httpc_options": [],
+        "http_options": {
+          "autoredirect": "false"
+        }
+      },
+      "request_body": "",
+      "url": "https://api.goshippo.com/addresses"
+    },
+    "response": {
+      "binary": false,
+      "body": "{\"object_created\": \"2018-01-14T01:34:24.177Z\", \"object_updated\": \"2018-01-14T01:34:24.196Z\", \"object_id\": \"0f7fe4cc24164f3490f8166466be7236\", \"is_complete\": true, \"validation_results\": {}, \"object_owner\": \"almielczarek@gmail.com\", \"name\": \"Mrs. Hippo\", \"company\": \"\", \"street_no\": \"\", \"street1\": \"215 Clayton St.\", \"street2\": \"\", \"street3\": \"\", \"city\": \"San Francisco\", \"state\": \"CA\", \"zip\": \"94117\", \"country\": \"US\", \"longitude\": null, \"latitude\": null, \"phone\": \"\", \"email\": \"\", \"is_residential\": null, \"metadata\": \"\", \"test\": true}",
+      "headers": {
+        "connection": "keep-alive",
+        "date": "Sun, 14 Jan 2018 01:34:24 GMT",
+        "server": "nginx/1.12.1",
+        "vary": "Accept-Language, Host, Cookie, Accept-Encoding",
+        "allow": "OPTIONS",
+        "content-language": "en-us",
+        "content-length": "534",
+        "content-type": "application/json",
+        "p3p": "CP=\"IDC DSP COR ADM DEVi TAIi PSA PSD IVAi IVDi CONi HIS OUR IND CNT\"",
+        "set-cookie": "sessionid=ayltuv0rq0npjw5uf07nw23mlusie7f7; Domain=.goshippo.com; expires=Sun, 28-Jan-2018 01:34:24 GMT; httponly; Max-Age=1209600; Path=/",
+        "x-envoy-upstream-service-time": "52"
+      },
+      "status_code": [
+        "HTTP/1.1",
+        201,
+        "Created"
+      ],
+      "type": "ok"
+    }
+  },
+  {
+    "request": {
+      "body": "",
+      "headers": {
+        "authorization": "ShippoToken shippo_test_8f2db303ed0799528593779ddd291b4b5cccbaf7"
+      },
+      "method": "get",
+      "options": {
+        "httpc_options": [],
+        "http_options": {
+          "autoredirect": "false"
+        }
+      },
+      "request_body": "",
+      "url": "https://api.goshippo.com/addresses/0f7fe4cc24164f3490f8166466be7236"
+    },
+    "response": {
+      "binary": false,
+      "body": "{\"object_created\": \"2018-01-14T01:34:24.177Z\", \"object_updated\": \"2018-01-14T01:34:24.196Z\", \"object_id\": \"0f7fe4cc24164f3490f8166466be7236\", \"is_complete\": true, \"validation_results\": {}, \"object_owner\": \"almielczarek@gmail.com\", \"name\": \"Mrs. Hippo\", \"company\": \"\", \"street_no\": \"\", \"street1\": \"215 Clayton St.\", \"street2\": \"\", \"street3\": \"\", \"city\": \"San Francisco\", \"state\": \"CA\", \"zip\": \"94117\", \"country\": \"US\", \"longitude\": null, \"latitude\": null, \"phone\": \"\", \"email\": \"\", \"is_residential\": null, \"metadata\": \"\", \"test\": true}",
+      "headers": {
+        "connection": "keep-alive",
+        "date": "Sun, 14 Jan 2018 01:34:24 GMT",
+        "server": "nginx/1.12.1",
+        "vary": "Accept-Language, Host, Cookie, Accept-Encoding",
+        "allow": "OPTIONS",
+        "content-language": "en-us",
+        "content-length": "534",
+        "content-type": "application/json",
+        "p3p": "CP=\"IDC DSP COR ADM DEVi TAIi PSA PSD IVAi IVDi CONi HIS OUR IND CNT\"",
+        "set-cookie": "sessionid=9rn00ejoempeqm7j7c0ufpdzo3t6aruu; Domain=.goshippo.com; expires=Sun, 28-Jan-2018 01:34:24 GMT; httponly; Max-Age=1209600; Path=/",
+        "x-envoy-upstream-service-time": "25"
+      },
+      "status_code": [
+        "HTTP/1.1",
+        200,
+        "OK"
+      ],
+      "type": "ok"
+    }
+  }
+]

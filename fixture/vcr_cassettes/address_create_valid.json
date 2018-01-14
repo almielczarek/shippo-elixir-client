@@ -1,0 +1,43 @@
+[
+  {
+    "request": {
+      "body": "{\"zip\":\"94117\",\"validate\":true,\"street1\":\"215 Clayton St.\",\"state\":\"CA\",\"name\":\"Mrs. Hippo\",\"country\":\"US\",\"city\":\"San Francisco\"}",
+      "headers": {
+        "authorization": "ShippoToken shippo_test_8f2db303ed0799528593779ddd291b4b5cccbaf7",
+        "content-type": "application/json"
+      },
+      "method": "post",
+      "options": {
+        "httpc_options": [],
+        "http_options": {
+          "autoredirect": "false"
+        }
+      },
+      "request_body": "",
+      "url": "https://api.goshippo.com/addresses"
+    },
+    "response": {
+      "binary": false,
+      "body": "{\"object_created\": \"2018-01-14T01:34:26.320Z\", \"object_updated\": \"2018-01-14T01:34:26.334Z\", \"object_id\": \"ec45e6c3532f49929fcb70ec97bc20e5\", \"is_complete\": true, \"validation_results\": {\"is_valid\": true, \"messages\": []}, \"object_owner\": \"almielczarek@gmail.com\", \"name\": \"Mrs. Hippo\", \"company\": \"\", \"street_no\": \"\", \"street1\": \"215 Clayton St\", \"street2\": \"\", \"street3\": \"\", \"city\": \"San Francisco\", \"state\": \"CA\", \"zip\": \"94117-1913\", \"country\": \"US\", \"longitude\": -122.44938, \"latitude\": 37.77335, \"phone\": \"\", \"email\": \"\", \"is_residential\": true, \"metadata\": \"\", \"test\": true}",
+      "headers": {
+        "connection": "keep-alive",
+        "date": "Sun, 14 Jan 2018 01:34:26 GMT",
+        "server": "nginx/1.12.1",
+        "vary": "Accept-Language, Host, Cookie, Accept-Encoding",
+        "allow": "OPTIONS",
+        "content-language": "en-us",
+        "content-length": "580",
+        "content-type": "application/json",
+        "p3p": "CP=\"IDC DSP COR ADM DEVi TAIi PSA PSD IVAi IVDi CONi HIS OUR IND CNT\"",
+        "set-cookie": "sessionid=1ack8wrtybv7s87yjxo1ao4qoidvrcih; Domain=.goshippo.com; expires=Sun, 28-Jan-2018 01:34:26 GMT; httponly; Max-Age=1209600; Path=/",
+        "x-envoy-upstream-service-time": "389"
+      },
+      "status_code": [
+        "HTTP/1.1",
+        201,
+        "Created"
+      ],
+      "type": "ok"
+    }
+  }
+]
