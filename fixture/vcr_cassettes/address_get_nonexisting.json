@@ -20,15 +20,15 @@
       "body": "<h1>Not Found</h1><p>The requested URL /addresses/non-existing-id was not found on this server.</p>",
       "headers": {
         "connection": "keep-alive",
-        "date": "Sun, 14 Jan 2018 01:34:26 GMT",
+        "date": "Sun, 14 Jan 2018 22:06:11 GMT",
         "server": "nginx/1.12.1",
         "vary": "Accept-Language, Host, Cookie",
         "content-language": "en-us",
         "content-length": "99",
         "content-type": "text/html",
         "p3p": "CP=\"IDC DSP COR ADM DEVi TAIi PSA PSD IVAi IVDi CONi HIS OUR IND CNT\"",
-        "set-cookie": "sessionid=k0gxbbbex3p5s703kdijgtytw0p33j3z; Domain=.goshippo.com; expires=Sun, 28-Jan-2018 01:34:26 GMT; httponly; Max-Age=1209600; Path=/",
-        "x-envoy-upstream-service-time": "24"
+        "set-cookie": "sessionid=65bbu1p9q5g7ciisv1h3517gq8o76prq; Domain=.goshippo.com; expires=Sun, 28-Jan-2018 22:06:11 GMT; httponly; Max-Age=1209600; Path=/",
+        "x-envoy-upstream-service-time": "26"
       },
       "status_code": [
         "HTTP/1.1",

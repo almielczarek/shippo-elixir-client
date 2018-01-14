@@ -1,4 +1,8 @@
 defmodule Shippo.Address do
+  use Shippo.Resource
+
+  def endpoint, do: "/addresses"
+
   @doc """
   Creates a Shippo address.
 
@@ -21,18 +25,6 @@ defmodule Shippo.Address do
 
   def create(params) do
     Shippo.post("/addresses", params)
-    |> Shippo.process_response
-  end
-
-  @doc """
-  Gets a Shippo address by id.
-
-  # Returns
-  - The an ok-tuple with the address if found
-  - An error-tuple with the response status and body if the address is not found or Shippo returns an error
-  """
-  def get(id) do
-    Shippo.get("/addresses/" <> id)
     |> Shippo.process_response
   end
 
@@ -63,18 +55,6 @@ defmodule Shippo.Address do
         {:ok, response.body}
       %{status: 200} = response ->
         {:invalid, response.body["validation_results"]["messages"]}
-      response ->
-        {:error, response.status, response.body}
-    end
-  end
-
-  @doc """
-  Retrieves the addresses you have submitted to Shippo
-  """
-  def list do
-    case Shippo.get("/addresses") do
-      %{status: 200, body: %{"results" => results}} ->
-        {:ok, results}
       response ->
         {:error, response.status, response.body}
     end

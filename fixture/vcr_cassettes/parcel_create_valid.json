@@ -18,10 +18,10 @@
     },
     "response": {
       "binary": false,
-      "body": "{\"object_state\": \"VALID\", \"object_created\": \"2018-01-14T01:34:28.169Z\", \"object_updated\": \"2018-01-14T01:34:28.169Z\", \"object_id\": \"fd98a2e21f76458ea790b726cdf8d875\", \"object_owner\": \"almielczarek@gmail.com\", \"template\": null, \"length\": \"5\", \"width\": \"4\", \"height\": \"3\", \"distance_unit\": \"in\", \"weight\": \"2\", \"mass_unit\": \"lb\", \"value_amount\": null, \"value_currency\": null, \"metadata\": \"\", \"extra\": {}, \"line_items\": [], \"test\": true}",
+      "body": "{\"object_state\": \"VALID\", \"object_created\": \"2018-01-14T22:06:17.242Z\", \"object_updated\": \"2018-01-14T22:06:17.242Z\", \"object_id\": \"8fa9012c8468434481aa1d5d8c735dc5\", \"object_owner\": \"almielczarek@gmail.com\", \"template\": null, \"length\": \"5\", \"width\": \"4\", \"height\": \"3\", \"distance_unit\": \"in\", \"weight\": \"2\", \"mass_unit\": \"lb\", \"value_amount\": null, \"value_currency\": null, \"metadata\": \"\", \"extra\": {}, \"line_items\": [], \"test\": true}",
       "headers": {
         "connection": "keep-alive",
-        "date": "Sun, 14 Jan 2018 01:34:28 GMT",
+        "date": "Sun, 14 Jan 2018 22:06:17 GMT",
         "server": "nginx/1.12.1",
         "vary": "Accept-Language, Host, Cookie, Accept-Encoding",
         "allow": "OPTIONS",
@@ -29,8 +29,8 @@
         "content-length": "434",
         "content-type": "application/json",
         "p3p": "CP=\"IDC DSP COR ADM DEVi TAIi PSA PSD IVAi IVDi CONi HIS OUR IND CNT\"",
-        "set-cookie": "sessionid=0x5ab3wroquspaiu2f827ljm4vpki4b3; Domain=.goshippo.com; expires=Sun, 28-Jan-2018 01:34:28 GMT; httponly; Max-Age=1209600; Path=/",
-        "x-envoy-upstream-service-time": "33"
+        "set-cookie": "sessionid=engb8yswytvu53qpcf3ryyjo9g1t2lcv; Domain=.goshippo.com; expires=Sun, 28-Jan-2018 22:06:17 GMT; httponly; Max-Age=1209600; Path=/",
+        "x-envoy-upstream-service-time": "24"
       },
       "status_code": [
         "HTTP/1.1",

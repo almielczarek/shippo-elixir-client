@@ -13,21 +13,21 @@
         }
       },
       "request_body": "",
-      "url": "https://api.goshippo.com/parcels/non-existing-parcel"
+      "url": "https://api.goshippo.com/shipments/non-existing-shipment"
     },
     "response": {
       "binary": false,
-      "body": "<h1>Not Found</h1><p>The requested URL /parcels/non-existing-parcel was not found on this server.</p>",
+      "body": "<h1>Not Found</h1><p>The requested URL /shipments/non-existing-shipment was not found on this server.</p>",
       "headers": {
         "connection": "keep-alive",
-        "date": "Sun, 14 Jan 2018 22:06:17 GMT",
+        "date": "Sun, 14 Jan 2018 22:06:16 GMT",
         "server": "nginx/1.12.1",
         "vary": "Accept-Language, Host, Cookie",
         "content-language": "en-us",
-        "content-length": "101",
+        "content-length": "105",
         "content-type": "text/html",
         "p3p": "CP=\"IDC DSP COR ADM DEVi TAIi PSA PSD IVAi IVDi CONi HIS OUR IND CNT\"",
-        "set-cookie": "sessionid=2mxs96s8wvzaykhw95grgq3zcncx1e7n; Domain=.goshippo.com; expires=Sun, 28-Jan-2018 22:06:17 GMT; httponly; Max-Age=1209600; Path=/",
+        "set-cookie": "sessionid=v72r305iw3dg3ilogpfdk8l5tulhplz6; Domain=.goshippo.com; expires=Sun, 28-Jan-2018 22:06:16 GMT; httponly; Max-Age=1209600; Path=/",
         "x-envoy-upstream-service-time": "15"
       },
       "status_code": [
