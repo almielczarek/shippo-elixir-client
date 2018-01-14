@@ -1,0 +1,83 @@
+[
+  {
+    "request": {
+      "body": "{\"width\":4,\"weight\":2,\"mass_unit\":\"lb\",\"length\":5,\"height\":3,\"distance_unit\":\"in\"}",
+      "headers": {
+        "authorization": "ShippoToken shippo_test_8f2db303ed0799528593779ddd291b4b5cccbaf7",
+        "content-type": "application/json"
+      },
+      "method": "post",
+      "options": {
+        "httpc_options": [],
+        "http_options": {
+          "autoredirect": "false"
+        }
+      },
+      "request_body": "",
+      "url": "https://api.goshippo.com/parcels"
+    },
+    "response": {
+      "binary": false,
+      "body": "{\"object_state\": \"VALID\", \"object_created\": \"2018-01-14T01:34:27.828Z\", \"object_updated\": \"2018-01-14T01:34:27.828Z\", \"object_id\": \"2cec8ca1c9794094830bc975954d6ae7\", \"object_owner\": \"almielczarek@gmail.com\", \"template\": null, \"length\": \"5\", \"width\": \"4\", \"height\": \"3\", \"distance_unit\": \"in\", \"weight\": \"2\", \"mass_unit\": \"lb\", \"value_amount\": null, \"value_currency\": null, \"metadata\": \"\", \"extra\": {}, \"line_items\": [], \"test\": true}",
+      "headers": {
+        "connection": "keep-alive",
+        "date": "Sun, 14 Jan 2018 01:34:27 GMT",
+        "server": "nginx/1.12.1",
+        "vary": "Accept-Language, Host, Cookie, Accept-Encoding",
+        "allow": "OPTIONS",
+        "content-language": "en-us",
+        "content-length": "434",
+        "content-type": "application/json",
+        "p3p": "CP=\"IDC DSP COR ADM DEVi TAIi PSA PSD IVAi IVDi CONi HIS OUR IND CNT\"",
+        "set-cookie": "sessionid=2bz9p0vcfxbx4u5aqpnik5t4uhtx1buz; Domain=.goshippo.com; expires=Sun, 28-Jan-2018 01:34:27 GMT; httponly; Max-Age=1209600; Path=/",
+        "x-envoy-upstream-service-time": "34"
+      },
+      "status_code": [
+        "HTTP/1.1",
+        201,
+        "Created"
+      ],
+      "type": "ok"
+    }
+  },
+  {
+    "request": {
+      "body": "",
+      "headers": {
+        "authorization": "ShippoToken shippo_test_8f2db303ed0799528593779ddd291b4b5cccbaf7"
+      },
+      "method": "get",
+      "options": {
+        "httpc_options": [],
+        "http_options": {
+          "autoredirect": "false"
+        }
+      },
+      "request_body": "",
+      "url": "https://api.goshippo.com/parcels"
+    },
+    "response": {
+      "binary": false,
+      "body": "{\"next\": \"https://api.goshippo.com/parcels?page=2\", \"previous\": null, \"results\": [{\"object_state\": \"VALID\", \"object_created\": \"2018-01-14T01:34:27.828Z\", \"object_updated\": \"2018-01-14T01:34:27.828Z\", \"object_id\": \"2cec8ca1c9794094830bc975954d6ae7\", \"object_owner\": \"almielczarek@gmail.com\", \"template\": null, \"length\": \"5.0000\", \"width\": \"4.0000\", \"height\": \"3.0000\", \"distance_unit\": \"in\", \"weight\": \"2.0000\", \"mass_unit\": \"lb\", \"value_amount\": null, \"value_currency\": null, \"metadata\": \"\", \"extra\": {}, \"line_items\": [], \"test\": true}, {\"object_state\": \"VALID\", \"object_created\": \"2018-01-14T01:34:27.640Z\", \"object_updated\": \"2018-01-14T01:34:27.640Z\", \"object_id\": \"db1eea6c0e594c5599358ab38041c177\", \"object_owner\": \"almielczarek@gmail.com\", \"template\": null, \"length\": \"5.0000\", \"width\": \"4.0000\", \"height\": \"3.0000\", \"distance_unit\": \"in\", \"weight\": \"2.0000\", \"mass_unit\": \"lb\", \"value_amount\": null, \"value_currency\": null, \"metadata\": \"\", \"extra\": {}, \"line_items\": [], \"test\": true}, {\"object_state\": \"VALID\", \"object_created\": \"2018-01-14T00:53:05.594Z\", \"object_updated\": \"2018-01-14T00:53:05.594Z\", \"object_id\": \"6d87c686593741b49fa2b12f79c34d80\", \"object_owner\": \"almielczarek@gmail.com\", \"template\": null, \"length\": \"8.0000\", \"width\": \"8.0000\", \"height\": \"1.0000\", \"distance_unit\": \"in\", \"weight\": \"2.0000\", \"mass_unit\": \"lb\", \"value_amount\": null, \"value_currency\": null, \"metadata\": \"\", \"extra\": {}, \"line_items\": [], \"test\": true}, {\"object_state\": \"VALID\", \"object_created\": \"2018-01-13T21:33:05.232Z\", \"object_updated\": \"2018-01-13T21:33:05.232Z\", \"object_id\": \"e2b6bbc0bf134e3babf28fda33c5afd4\", \"object_owner\": \"almielczarek@gmail.com\", \"template\": null, \"length\": \"5.0000\", \"width\": \"4.0000\", \"height\": \"3.0000\", \"distance_unit\": \"in\", \"weight\": \"2.0000\", \"mass_unit\": \"lb\", \"value_amount\": null, \"value_currency\": null, \"metadata\": \"\", \"extra\": {}, \"line_items\": [], \"test\": true}, {\"object_state\": \"VALID\", \"object_created\": \"2018-01-13T21:33:05.041Z\", \"object_updated\": \"2018-01-13T21:33:05.041Z\", \"object_id\": \"45acd168c5934035afbaedc63a937137\", \"object_owner\": \"almielczarek@gmail.com\", \"template\": null, \"length\": \"5.0000\", \"width\": \"4.0000\", \"height\": \"3.0000\", \"distance_unit\": \"in\", \"weight\": \"2.0000\", \"mass_unit\": \"lb\", \"value_amount\": null, \"value_currency\": null, \"metadata\": \"\", \"extra\": {}, \"line_items\": [], \"test\": true}]}",
+      "headers": {
+        "connection": "keep-alive",
+        "date": "Sun, 14 Jan 2018 01:34:27 GMT",
+        "server": "nginx/1.12.1",
+        "vary": "Accept-Language, Host, Cookie, Accept-Encoding",
+        "allow": "OPTIONS",
+        "content-language": "en-us",
+        "content-length": "2362",
+        "content-type": "application/json",
+        "p3p": "CP=\"IDC DSP COR ADM DEVi TAIi PSA PSD IVAi IVDi CONi HIS OUR IND CNT\"",
+        "set-cookie": "sessionid=60dvfxs3417b0ost5dc7clj29zzlrq01; Domain=.goshippo.com; expires=Sun, 28-Jan-2018 01:34:27 GMT; httponly; Max-Age=1209600; Path=/",
+        "x-envoy-upstream-service-time": "63"
+      },
+      "status_code": [
+        "HTTP/1.1",
+        200,
+        "OK"
+      ],
+      "type": "ok"
+    }
+  }
+]

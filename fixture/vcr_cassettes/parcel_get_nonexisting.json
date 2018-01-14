@@ -1,0 +1,41 @@
+[
+  {
+    "request": {
+      "body": "",
+      "headers": {
+        "authorization": "ShippoToken shippo_test_8f2db303ed0799528593779ddd291b4b5cccbaf7"
+      },
+      "method": "get",
+      "options": {
+        "httpc_options": [],
+        "http_options": {
+          "autoredirect": "false"
+        }
+      },
+      "request_body": "",
+      "url": "https://api.goshippo.com/parcels/non-existing-parcel"
+    },
+    "response": {
+      "binary": false,
+      "body": "<h1>Not Found</h1><p>The requested URL /parcels/non-existing-parcel was not found on this server.</p>",
+      "headers": {
+        "connection": "keep-alive",
+        "date": "Sun, 14 Jan 2018 01:34:28 GMT",
+        "server": "nginx/1.12.1",
+        "vary": "Accept-Language, Host, Cookie",
+        "content-language": "en-us",
+        "content-length": "101",
+        "content-type": "text/html",
+        "p3p": "CP=\"IDC DSP COR ADM DEVi TAIi PSA PSD IVAi IVDi CONi HIS OUR IND CNT\"",
+        "set-cookie": "sessionid=ylutmmg0nykzctuf7os0knuiu8hv2yqx; Domain=.goshippo.com; expires=Sun, 28-Jan-2018 01:34:28 GMT; httponly; Max-Age=1209600; Path=/",
+        "x-envoy-upstream-service-time": "13"
+      },
+      "status_code": [
+        "HTTP/1.1",
+        404,
+        "Not Found"
+      ],
+      "type": "ok"
+    }
+  }
+]
