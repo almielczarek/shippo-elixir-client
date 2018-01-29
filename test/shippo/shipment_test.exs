@@ -72,11 +72,11 @@ defmodule Shippo.ShipmentTest do
   test "list returns most recent shipments" do
     use_cassette "shipment_list_returns_recent" do
       {:ok, shipment} = Shipment.create(@valid_params)
-      {:ok, list} = Shipment.list
+      {:ok, list} = Shipment.list()
 
       assert Enum.any?(list, fn p ->
-        p["object_id"] == shipment["object_id"]
-      end)
+               p["object_id"] == shipment["object_id"]
+             end)
     end
   end
 end

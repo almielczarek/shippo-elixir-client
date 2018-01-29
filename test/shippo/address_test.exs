@@ -24,7 +24,7 @@ defmodule Shippo.AddressTest do
 
   test "create without country code returns {:error, 400, msg}" do
     use_cassette "address_create_no_country" do
-      {:error, 400, %{"country" => _}} = Address.create(Map.delete(@valid_params, :country)) 
+      {:error, 400, %{"country" => _}} = Address.create(Map.delete(@valid_params, :country))
     end
   end
 
@@ -84,11 +84,11 @@ defmodule Shippo.AddressTest do
   test "list retrieves previously created address" do
     use_cassette "address_list" do
       {:ok, address} = Address.create(@valid_params)
-      {:ok, list} = Address.list
+      {:ok, list} = Address.list()
 
       assert Enum.any?(list, fn a ->
-        a["name"] == address["name"] and a["street1"] == address["street1"]
-      end)
+               a["name"] == address["name"] and a["street1"] == address["street1"]
+             end)
     end
   end
 end

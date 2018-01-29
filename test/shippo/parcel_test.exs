@@ -60,11 +60,11 @@ defmodule Shippo.ParcelTest do
   test "list returns most recent parcels" do
     use_cassette "parcel_list_returns_recent" do
       {:ok, parcel} = Parcel.create(@valid_params)
-      {:ok, list} = Parcel.list
+      {:ok, list} = Parcel.list()
 
       assert Enum.any?(list, fn p ->
-        p["object_id"] == parcel["object_id"]
-      end)
+               p["object_id"] == parcel["object_id"]
+             end)
     end
   end
 end

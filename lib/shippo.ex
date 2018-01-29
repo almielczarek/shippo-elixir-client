@@ -1,17 +1,19 @@
 defmodule Shippo do
   use Tesla
 
-  plug Tesla.Middleware.BaseUrl, "https://api.goshippo.com"
-  plug Tesla.Middleware.Headers, %{"Authorization" => "ShippoToken #{api_key()}"}
-  plug Tesla.Middleware.JSON
+  plug(Tesla.Middleware.BaseUrl, "https://api.goshippo.com")
+  plug(Tesla.Middleware.Headers, %{"Authorization" => "ShippoToken #{api_key()}"})
+  plug(Tesla.Middleware.JSON)
 
   @doc false
   def process_response(response) do
     case response do
       %{status: 200} ->
         {:ok, response.body}
+
       %{status: 201} ->
         {:ok, response.body}
+
       _ ->
         {:error, response.status, response.body}
     end
@@ -34,8 +36,10 @@ defmodule Shippo do
 
         Please note, the first method takes precedence
         """
+
       is_nil(from_env) ->
         from_config
+
       true ->
         from_env
     end
