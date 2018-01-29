@@ -1,5 +1,5 @@
 defmodule Shippo.Address do
-  use Shippo.Resource
+  use Shippo.Resource, []
 
   def endpoint, do: "/addresses"
 
