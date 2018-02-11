@@ -18,10 +18,10 @@
     },
     "response": {
       "binary": false,
-      "body": "{\"object_created\": \"2018-01-14T22:06:13.592Z\", \"object_updated\": \"2018-01-14T22:06:14.124Z\", \"object_id\": \"79f7fe3764f242e695ef227b46ec38fb\", \"is_complete\": false, \"validation_results\": {\"is_valid\": false, \"messages\": [{\"source\": \"Shippo Address Validator\", \"code\": \"Invalid State\", \"type\": \"address_error\", \"text\": \"The State code in the address is invalid. Note that only US State and U.S. Territories and possession abbreviations are valid.\"}]}, \"object_owner\": \"almielczarek@gmail.com\", \"name\": \"\", \"company\": \"\", \"street_no\": \"\", \"street1\": \"\", \"street2\": \"\", \"street3\": \"\", \"city\": \"\", \"state\": \"\", \"zip\": \"\", \"country\": \"US\", \"longitude\": null, \"latitude\": null, \"phone\": \"\", \"email\": \"\", \"is_residential\": false, \"metadata\": \"\", \"test\": true}",
+      "body": "{\"object_created\": \"2018-02-11T23:11:51.623Z\", \"object_updated\": \"2018-02-11T23:11:52.159Z\", \"object_id\": \"907990d8a3054669a982da52091ba0a4\", \"is_complete\": false, \"validation_results\": {\"is_valid\": false, \"messages\": [{\"source\": \"Shippo Address Validator\", \"code\": \"Invalid State\", \"type\": \"address_error\", \"text\": \"The State code in the address is invalid. Note that only US State and U.S. Territories and possession abbreviations are valid.\"}]}, \"object_owner\": \"almielczarek@gmail.com\", \"name\": \"\", \"company\": \"\", \"street_no\": \"\", \"street1\": \"\", \"street2\": \"\", \"street3\": \"\", \"city\": \"\", \"state\": \"\", \"zip\": \"\", \"country\": \"US\", \"longitude\": null, \"latitude\": null, \"phone\": \"\", \"email\": \"\", \"is_residential\": false, \"metadata\": \"\", \"test\": true}",
       "headers": {
         "connection": "keep-alive",
-        "date": "Sun, 14 Jan 2018 22:06:14 GMT",
+        "date": "Sun, 11 Feb 2018 23:11:52 GMT",
         "server": "nginx/1.12.1",
         "vary": "Accept-Language, Host, Cookie, Accept-Encoding",
         "allow": "OPTIONS",
@@ -29,8 +29,8 @@
         "content-length": "750",
         "content-type": "application/json",
         "p3p": "CP=\"IDC DSP COR ADM DEVi TAIi PSA PSD IVAi IVDi CONi HIS OUR IND CNT\"",
-        "set-cookie": "sessionid=if99iqhh7fp7r1tid08utwc7u1hnjmyv; Domain=.goshippo.com; expires=Sun, 28-Jan-2018 22:06:14 GMT; httponly; Max-Age=1209600; Path=/",
-        "x-envoy-upstream-service-time": "1077"
+        "set-cookie": "sessionid=vzhw0sp4ztk4y5ncvinta2ov1tizk4v3; Domain=.goshippo.com; expires=Sun, 25-Feb-2018 23:11:52 GMT; httponly; Max-Age=1209600; Path=/",
+        "x-envoy-upstream-service-time": "1129"
       },
       "status_code": [
         "HTTP/1.1",

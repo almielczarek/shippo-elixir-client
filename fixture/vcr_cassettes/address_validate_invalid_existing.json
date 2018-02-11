@@ -18,10 +18,10 @@
     },
     "response": {
       "binary": false,
-      "body": "{\"object_created\": \"2018-01-14T22:06:12.018Z\", \"object_updated\": \"2018-01-14T22:06:12.024Z\", \"object_id\": \"3e1c0271214e4edca5572b7dffb43ca5\", \"is_complete\": false, \"validation_results\": {}, \"object_owner\": \"almielczarek@gmail.com\", \"name\": \"\", \"company\": \"\", \"street_no\": \"\", \"street1\": \"\", \"street2\": \"\", \"street3\": \"\", \"city\": \"\", \"state\": \"\", \"zip\": \"\", \"country\": \"US\", \"longitude\": null, \"latitude\": null, \"phone\": \"\", \"email\": \"\", \"is_residential\": null, \"metadata\": \"\", \"test\": true}",
+      "body": "{\"object_created\": \"2018-02-11T23:11:52.294Z\", \"object_updated\": \"2018-02-11T23:11:52.304Z\", \"object_id\": \"448225cad1784bd1a266d18f31b05e67\", \"is_complete\": false, \"validation_results\": {}, \"object_owner\": \"almielczarek@gmail.com\", \"name\": \"\", \"company\": \"\", \"street_no\": \"\", \"street1\": \"\", \"street2\": \"\", \"street3\": \"\", \"city\": \"\", \"state\": \"\", \"zip\": \"\", \"country\": \"US\", \"longitude\": null, \"latitude\": null, \"phone\": \"\", \"email\": \"\", \"is_residential\": null, \"metadata\": \"\", \"test\": true}",
       "headers": {
         "connection": "keep-alive",
-        "date": "Sun, 14 Jan 2018 22:06:12 GMT",
+        "date": "Sun, 11 Feb 2018 23:11:52 GMT",
         "server": "nginx/1.12.1",
         "vary": "Accept-Language, Host, Cookie, Accept-Encoding",
         "allow": "OPTIONS",
@@ -29,8 +29,8 @@
         "content-length": "490",
         "content-type": "application/json",
         "p3p": "CP=\"IDC DSP COR ADM DEVi TAIi PSA PSD IVAi IVDi CONi HIS OUR IND CNT\"",
-        "set-cookie": "sessionid=3y6wwea21jyeeizxm1nukifwmcznz404; Domain=.goshippo.com; expires=Sun, 28-Jan-2018 22:06:12 GMT; httponly; Max-Age=1209600; Path=/",
-        "x-envoy-upstream-service-time": "47"
+        "set-cookie": "sessionid=cxr2febhgmfao165y792tkgziz5i6glp; Domain=.goshippo.com; expires=Sun, 25-Feb-2018 23:11:52 GMT; httponly; Max-Age=1209600; Path=/",
+        "x-envoy-upstream-service-time": "41"
       },
       "status_code": [
         "HTTP/1.1",
@@ -54,14 +54,14 @@
         }
       },
       "request_body": "",
-      "url": "https://api.goshippo.com/addresses/3e1c0271214e4edca5572b7dffb43ca5/validate"
+      "url": "https://api.goshippo.com/addresses/448225cad1784bd1a266d18f31b05e67/validate"
     },
     "response": {
       "binary": false,
-      "body": "{\"object_created\": \"2018-01-14T22:06:12.357Z\", \"object_updated\": \"2018-01-14T22:06:12.892Z\", \"object_id\": \"1433472ab6b64aa4b1430bfb50b815cf\", \"is_complete\": false, \"validation_results\": {\"is_valid\": false, \"messages\": [{\"source\": \"Shippo Address Validator\", \"code\": \"Invalid State\", \"type\": \"address_error\", \"text\": \"The State code in the address is invalid. Note that only US State and U.S. Territories and possession abbreviations are valid.\"}]}, \"object_owner\": \"almielczarek@gmail.com\", \"name\": \"\", \"company\": \"\", \"street_no\": \"\", \"street1\": \"\", \"street2\": \"\", \"street3\": \"\", \"city\": \"\", \"state\": \"\", \"zip\": \"\", \"country\": \"US\", \"longitude\": null, \"latitude\": null, \"phone\": \"\", \"email\": \"\", \"is_residential\": false, \"metadata\": \"\", \"test\": true}",
+      "body": "{\"object_created\": \"2018-02-11T23:11:53.028Z\", \"object_updated\": \"2018-02-11T23:11:53.557Z\", \"object_id\": \"7048a11a74f74d55a6bfcbbea7922877\", \"is_complete\": false, \"validation_results\": {\"is_valid\": false, \"messages\": [{\"source\": \"Shippo Address Validator\", \"code\": \"Invalid State\", \"type\": \"address_error\", \"text\": \"The State code in the address is invalid. Note that only US State and U.S. Territories and possession abbreviations are valid.\"}]}, \"object_owner\": \"almielczarek@gmail.com\", \"name\": \"\", \"company\": \"\", \"street_no\": \"\", \"street1\": \"\", \"street2\": \"\", \"street3\": \"\", \"city\": \"\", \"state\": \"\", \"zip\": \"\", \"country\": \"US\", \"longitude\": null, \"latitude\": null, \"phone\": \"\", \"email\": \"\", \"is_residential\": false, \"metadata\": \"\", \"test\": true}",
       "headers": {
         "connection": "keep-alive",
-        "date": "Sun, 14 Jan 2018 22:06:12 GMT",
+        "date": "Sun, 11 Feb 2018 23:11:53 GMT",
         "server": "nginx/1.12.1",
         "vary": "Accept-Language, Host, Cookie, Accept-Encoding",
         "allow": "OPTIONS",
@@ -69,8 +69,8 @@
         "content-length": "750",
         "content-type": "application/json",
         "p3p": "CP=\"IDC DSP COR ADM DEVi TAIi PSA PSD IVAi IVDi CONi HIS OUR IND CNT\"",
-        "set-cookie": "sessionid=42ni4592m2ucnf5qz3mckq5jk6dyz776; Domain=.goshippo.com; expires=Sun, 28-Jan-2018 22:06:12 GMT; httponly; Max-Age=1209600; Path=/",
-        "x-envoy-upstream-service-time": "805"
+        "set-cookie": "sessionid=uot8wybq2nr3h1l91gw1cgcf5votn8de; Domain=.goshippo.com; expires=Sun, 25-Feb-2018 23:11:53 GMT; httponly; Max-Age=1209600; Path=/",
+        "x-envoy-upstream-service-time": "1208"
       },
       "status_code": [
         "HTTP/1.1",

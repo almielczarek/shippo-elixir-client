@@ -21,7 +21,7 @@
       "body": "{\"country\": [\"In order to create an Address, at least a country must be provided.\"]}",
       "headers": {
         "connection": "keep-alive",
-        "date": "Sun, 14 Jan 2018 22:06:11 GMT",
+        "date": "Sun, 11 Feb 2018 23:11:50 GMT",
         "server": "nginx/1.12.1",
         "vary": "Accept-Language, Host, Cookie",
         "allow": "OPTIONS",
@@ -29,8 +29,8 @@
         "content-length": "84",
         "content-type": "application/json",
         "p3p": "CP=\"IDC DSP COR ADM DEVi TAIi PSA PSD IVAi IVDi CONi HIS OUR IND CNT\"",
-        "set-cookie": "sessionid=as2uzhyk0zp1wcoumbhvy45eqss166n6; Domain=.goshippo.com; expires=Sun, 28-Jan-2018 22:06:11 GMT; httponly; Max-Age=1209600; Path=/",
-        "x-envoy-upstream-service-time": "24"
+        "set-cookie": "sessionid=a5rajeeqwcahvkdq5tga2abubplpx0yg; Domain=.goshippo.com; expires=Sun, 25-Feb-2018 23:11:50 GMT; httponly; Max-Age=1209600; Path=/",
+        "x-envoy-upstream-service-time": "23"
       },
       "status_code": [
         "HTTP/1.1",

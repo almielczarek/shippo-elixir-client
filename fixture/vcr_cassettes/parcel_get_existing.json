@@ -18,10 +18,10 @@
     },
     "response": {
       "binary": false,
-      "body": "{\"object_state\": \"VALID\", \"object_created\": \"2018-01-14T22:06:16.714Z\", \"object_updated\": \"2018-01-14T22:06:16.714Z\", \"object_id\": \"68845e3feb5f4d47a662884ea972fcff\", \"object_owner\": \"almielczarek@gmail.com\", \"template\": null, \"length\": \"5\", \"width\": \"4\", \"height\": \"3\", \"distance_unit\": \"in\", \"weight\": \"2\", \"mass_unit\": \"lb\", \"value_amount\": null, \"value_currency\": null, \"metadata\": \"\", \"extra\": {}, \"line_items\": [], \"test\": true}",
+      "body": "{\"object_state\": \"VALID\", \"object_created\": \"2018-02-11T23:11:54.639Z\", \"object_updated\": \"2018-02-11T23:11:54.639Z\", \"object_id\": \"f52bfcc4cb9f4c008cece87cd377cf66\", \"object_owner\": \"almielczarek@gmail.com\", \"template\": null, \"length\": \"5\", \"width\": \"4\", \"height\": \"3\", \"distance_unit\": \"in\", \"weight\": \"2\", \"mass_unit\": \"lb\", \"value_amount\": null, \"value_currency\": null, \"metadata\": \"\", \"extra\": {}, \"line_items\": [], \"test\": true}",
       "headers": {
         "connection": "keep-alive",
-        "date": "Sun, 14 Jan 2018 22:06:16 GMT",
+        "date": "Sun, 11 Feb 2018 23:11:54 GMT",
         "server": "nginx/1.12.1",
         "vary": "Accept-Language, Host, Cookie, Accept-Encoding",
         "allow": "OPTIONS",
@@ -29,8 +29,8 @@
         "content-length": "434",
         "content-type": "application/json",
         "p3p": "CP=\"IDC DSP COR ADM DEVi TAIi PSA PSD IVAi IVDi CONi HIS OUR IND CNT\"",
-        "set-cookie": "sessionid=pj9lejzwg772q6p4noyh207v52iteyq8; Domain=.goshippo.com; expires=Sun, 28-Jan-2018 22:06:16 GMT; httponly; Max-Age=1209600; Path=/",
-        "x-envoy-upstream-service-time": "35"
+        "set-cookie": "sessionid=ul8ou4jds8bxkzkv698uvvv6fvj8yjxi; Domain=.goshippo.com; expires=Sun, 25-Feb-2018 23:11:54 GMT; httponly; Max-Age=1209600; Path=/",
+        "x-envoy-upstream-service-time": "40"
       },
       "status_code": [
         "HTTP/1.1",
@@ -54,14 +54,14 @@
         }
       },
       "request_body": "",
-      "url": "https://api.goshippo.com/parcels/68845e3feb5f4d47a662884ea972fcff"
+      "url": "https://api.goshippo.com/parcels/f52bfcc4cb9f4c008cece87cd377cf66"
     },
     "response": {
       "binary": false,
-      "body": "{\"object_state\": \"VALID\", \"object_created\": \"2018-01-14T22:06:16.714Z\", \"object_updated\": \"2018-01-14T22:06:16.714Z\", \"object_id\": \"68845e3feb5f4d47a662884ea972fcff\", \"object_owner\": \"almielczarek@gmail.com\", \"template\": null, \"length\": \"5.0000\", \"width\": \"4.0000\", \"height\": \"3.0000\", \"distance_unit\": \"in\", \"weight\": \"2.0000\", \"mass_unit\": \"lb\", \"value_amount\": null, \"value_currency\": null, \"metadata\": \"\", \"extra\": {}, \"line_items\": [], \"test\": true}",
+      "body": "{\"object_state\": \"VALID\", \"object_created\": \"2018-02-11T23:11:54.639Z\", \"object_updated\": \"2018-02-11T23:11:54.639Z\", \"object_id\": \"f52bfcc4cb9f4c008cece87cd377cf66\", \"object_owner\": \"almielczarek@gmail.com\", \"template\": null, \"length\": \"5.0000\", \"width\": \"4.0000\", \"height\": \"3.0000\", \"distance_unit\": \"in\", \"weight\": \"2.0000\", \"mass_unit\": \"lb\", \"value_amount\": null, \"value_currency\": null, \"metadata\": \"\", \"extra\": {}, \"line_items\": [], \"test\": true}",
       "headers": {
         "connection": "keep-alive",
-        "date": "Sun, 14 Jan 2018 22:06:16 GMT",
+        "date": "Sun, 11 Feb 2018 23:11:54 GMT",
         "server": "nginx/1.12.1",
         "vary": "Accept-Language, Host, Cookie, Accept-Encoding",
         "allow": "OPTIONS",
@@ -69,8 +69,8 @@
         "content-length": "454",
         "content-type": "application/json",
         "p3p": "CP=\"IDC DSP COR ADM DEVi TAIi PSA PSD IVAi IVDi CONi HIS OUR IND CNT\"",
-        "set-cookie": "sessionid=p6wjd2j3alt5yr3yks6legcsxlawnomq; Domain=.goshippo.com; expires=Sun, 28-Jan-2018 22:06:16 GMT; httponly; Max-Age=1209600; Path=/",
-        "x-envoy-upstream-service-time": "62"
+        "set-cookie": "sessionid=96397b0l8ex07k9ob358p39xkpb8asp0; Domain=.goshippo.com; expires=Sun, 25-Feb-2018 23:11:54 GMT; httponly; Max-Age=1209600; Path=/",
+        "x-envoy-upstream-service-time": "29"
       },
       "status_code": [
         "HTTP/1.1",

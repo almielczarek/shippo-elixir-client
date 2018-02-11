@@ -21,7 +21,7 @@
       "body": "{\"mass_unit\": [\"This field is required.\"]}",
       "headers": {
         "connection": "keep-alive",
-        "date": "Sun, 14 Jan 2018 22:06:17 GMT",
+        "date": "Sun, 11 Feb 2018 23:11:54 GMT",
         "server": "nginx/1.12.1",
         "vary": "Accept-Language, Host, Cookie",
         "allow": "OPTIONS",
@@ -29,8 +29,8 @@
         "content-length": "42",
         "content-type": "application/json",
         "p3p": "CP=\"IDC DSP COR ADM DEVi TAIi PSA PSD IVAi IVDi CONi HIS OUR IND CNT\"",
-        "set-cookie": "sessionid=1q0ijopyd75viq9syqspeenbnylzre8u; Domain=.goshippo.com; expires=Sun, 28-Jan-2018 22:06:17 GMT; httponly; Max-Age=1209600; Path=/",
-        "x-envoy-upstream-service-time": "18"
+        "set-cookie": "sessionid=gvforp6paicvbb1jgjr4sv54cdq6kvlk; Domain=.goshippo.com; expires=Sun, 25-Feb-2018 23:11:54 GMT; httponly; Max-Age=1209600; Path=/",
+        "x-envoy-upstream-service-time": "26"
       },
       "status_code": [
         "HTTP/1.1",
