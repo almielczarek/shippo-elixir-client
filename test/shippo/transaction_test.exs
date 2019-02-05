@@ -34,7 +34,7 @@ defmodule Shippo.TransactionTest do
     async: false
   }
 
-  # TODO make this test pass when carrier accounts are implemented
+  # TODO: make this test pass when carrier accounts are implemented
   test "create with valid shipment returns {:ok, transaction}" do
     use_cassette "transaction_create_valid_with_shipment" do
       {:ok, transaction} =
